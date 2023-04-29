@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>f3-contest-29th-April</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="nav">
+        <a href="#">Header</a>
+        <div>
+            <a href="#">SignUp</a>
+            <a href="#">Profile</a>
+        </div>
+    </div>
+
+    <h1 class="heading">SignUp</h1>
+    <div class="form">
+        <input type="text" name="name" placeholder="Full Name" id="input-fname" required /><br><br>
+        <input type="email" name="email" placeholder="Email" id="input-email" required /><br><br>
+        <input type="password" name="password" placeholder="password" id="input-password" required/><br><br>
+        <input type="password" name="confirm-password" placeholder="Confirm password" id="input-confirm-password" required/><br><br>
+    </div>
+    <div id="error">
+        <span style="color:red;">Error : Please Make sure All the fields are mandatory
+            !</span>
+    </div>
+    <div id="success">
+        <span style="color:green">Successfully SignedUp</span>
+    </div>
+    <div class="button">
+        <button class="button" id="btn">SignUp</button>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
